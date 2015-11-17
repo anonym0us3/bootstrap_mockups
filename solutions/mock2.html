@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
-  <!-- jQuery -->
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <!-- Bootstrap JS -->
-  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <!-- Custom Styles -->
+  <meta charset="utf-8">
+  <title>Mockup 2</title>
+  <!-- set viewport to device width to allow responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- custom styles (always require after Bootstrap) -->
   <link rel="stylesheet" href="main2.css">
 </head>
 <body>
@@ -20,26 +18,25 @@
     <div class="container">
       <a class ="navbar-brand" href="javascript:void(0)">Company Logo</a>
 
+      <form class="navbar-form navbar-right " role="search">
+        <div class="form-group">
+          <div class="input-group">
+            <div class=" roundedIcon input-group-addon">
+              <span class="glyphicon glyphicon-search"></span>
+            </div>
+            <input id = "roundedSearch" class="search-query form-control" type="email" placeholder="Search">
+            <span class="clearer glyphicon glyphicon-remove-circle form-control-feedback"></span>
+          </div>
+        </div>
+      </form>
 
-  <form class="navbar-form navbar-right " role="search">
-    <div class="form-group">
-      <div class="input-group">
-      <div class=" roundedIcon input-group-addon">
-        <span class="glyphicon glyphicon-search"></span>
-      </div>
-      <input id = "roundedSearch" class="search-query form-control" type="email" placeholder="Search">
-
-        <span class="clearer glyphicon glyphicon-remove-circle form-control-feedback"></span>
-
-  </div>
-</div>
-  </form>
       <ul class = "nav navbar-nav navbar-right">
         <li><a href="javascript:void(0)">Home</a></li>
         <li><a href="javascript:void(0)">Products</a></li>
         <li class ="active"><a href="javascript:void(0)">About Us</a></li>
         <li><a href="javascript:void(0)">Contact Us</a></li>
       </ul>
+
     </div>
   </nav>
 
@@ -64,12 +61,14 @@
         </div>
       </div>
     </div>
+
     <hr>
     <br>
-       <h2>The Team</h2>
-       <div class="row">
 
-       <br>
+    <h2>The Team</h2>
+    <div class="row">
+
+      <br>
 
       <div class="col-md-5 thumbnail">
         <img src="http://lorempixel.com/340/200">
